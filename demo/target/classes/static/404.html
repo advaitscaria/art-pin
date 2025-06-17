@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 — Page Not Found</title>
+
+  <!-- Lightweight font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #fafafa;
+      color: #333;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .wrapper {
+      text-align: center;
+      max-width: 360px;
+      padding: 1rem;
+    }
+    .wrapper svg {
+      width: 96px;
+      height: 96px;
+      margin-bottom: 1rem;
+      fill: #e0e0e0;
+    }
+    .wrapper h1 {
+      font-size: 84px;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .wrapper p {
+      font-size: 18px;
+      margin-bottom: 1.5rem;
+      color: #666;
+    }
+    .wrapper a {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: #ff3951;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: opacity 0.2s ease;
+    }
+    .wrapper a:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- A simple “pin” icon -->
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 
+               9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 
+               2.5S13.38 11.5 12 11.5z"/>
+    </svg>
+
+    <h1>404</h1>
+    <p>Sorry, we can’t find that page.</p>
+    <a href="/">Back to Home</a>
+  </div>
+</body>
+</html>
